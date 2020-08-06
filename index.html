@@ -30,7 +30,21 @@
     <p>
         This is a test paragraph for my website. There is a lot of testing that happens and this is cool.
         <br>
-        Updated at 5:45pm 8/5/2020
+        Last updated at 5:58pm 8/5/2020
     </p>
+
+    <!--Test date modified button from w3schools.-->
+
+    <p>Click the button to display the date and time this document was last modified.</p>
+    <p><strong>Note:</strong> In this example, we convert the lastModified property into a Date object.</p>
+    <button onclick="myFunction()">Try it</button>
+    <p id="demo"></p>
+    <script>
+    function myFunction() {
+        var x = new Date(document.lastModified);
+        document.getElementById("demo").innerHTML = x;
+    }
+    </script>
+
 </body>
 </html>
