@@ -2,6 +2,7 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
+
     <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-icon-72x72.png">
@@ -20,15 +21,46 @@
     <meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png">
     <meta name="theme-color" content="#000000">
 
-    <link rel="stylesheet" type="text/css" href="mystyle.css.lnk">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
 
     <meta charset="utf-8" />
-    <title>T Subpage</title>
+    <title>Thomas Yu</title>
 </head>
 <body>
-    <h1>Successfully created subpage</h1>
+    <h1>Welcome to my website!</h1>
+    <h3>Who I am:</h3>
     <p>
-        Here's another paragraph. It should be formatted similarly to the homepage. 
+        I am a high school senior interested in computer science and mechanical engineering.
     </p>
+    <p>
+        This is a test paragraph for my website.
+        <br>
+        Line break
+        <br />
+        Line break again
+        <br />
+        <a href="https://www.gmail.com">Hello? This time the link to gmail should work!</a>
+    </p>
+
+    <div class="dropdown">
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+    </div>
+
+    <!--Test date modified button from w3schools.-->
+
+    <button onclick="myFunction()">Last updated:</button>
+    <p id="demoyesthisreally is a demo"></p>
+    <script>
+        function myFunction() {
+            var x = new Date(document.lastModified);
+            document.getElementById("demoyesthisreally is a demo").innerHTML = x;
+        }
+    </script>
+
 </body>
 </html>
