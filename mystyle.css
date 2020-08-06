@@ -2,6 +2,7 @@
 body {
     background-color: beige;
     border-color: maroon;
+    border-width: 5px;
     margin-left: 20px;
     margin-top: 20px;
     margin-right: 20px;
@@ -10,12 +11,12 @@ body {
 }
 
 h1 {
-    color: navy;
+    color: maroon;
     font-size: 24px;
 }
 
 p {
-    color: black;
+    color: maroon;
     font-size: 13px;
 }
 /*End normal text formatting */
