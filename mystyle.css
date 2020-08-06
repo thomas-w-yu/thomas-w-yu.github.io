@@ -1,7 +1,7 @@
 ﻿/*Normal text formatting */
 body {
     background-color: beige;
-    border-color: maroon
+    border-color: maroon;
     margin-left: 20px;
     margin-top: 20px;
     margin-right: 20px;
@@ -59,7 +59,7 @@ p {
         /* Change color of dropdown links on hover */
         .dropdown-content a:hover {
             background-color: #ddd;
-            font-color: maroon;
+            color: maroon;
         }
 
 /* Show the dropdown menu on hover */
@@ -69,5 +69,5 @@ p {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: #ffc14d;
 }
