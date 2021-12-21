@@ -1,13 +1,17 @@
 ﻿/*Normal text formatting */
 body {
     background-color: beige;
-    border-color: maroon;
-    border-width: 5px;
+    /*border-color: maroon; 
+    border-width: 5px;*/
     margin-left: 20px;
     margin-top: 20px;
     margin-right: 20px;
     margin-left: 20px;
     font-family: "Garamond", serif;
+    
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
 }
 
 h1 {
